@@ -3,7 +3,7 @@ A boilerplate of using Django as backend framework, Vue js and webpack as the fr
 
 ## Installation 
 #### Clone the repository
-```git clone git@github.com:phocode/django-vue-webpack.git```
+```git clone git@github.com:longtranista/django-vue-webpack.git```
 
 #### Run django 
 ```python manage.py runserver 0.0.0.0:8000```
