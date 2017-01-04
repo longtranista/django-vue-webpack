@@ -17,5 +17,5 @@ A boilerplate of using Django as backend framework, Vue js and webpack as the fr
 We are done. 
 
 #### Enjoy coding
-  * Frontend: http://localhost:8081/
+  * Frontend: http://localhost:8080/
   * Backend: http://localhost:8000/
