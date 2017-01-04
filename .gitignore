@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+.idea/
+*/migrations/*
+!*/migrations/__init__.py
+node_modules/
+npm-debug.log
