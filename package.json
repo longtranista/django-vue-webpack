@@ -1,7 +1,7 @@
 {
   "name": "vue-django-webpack",
   "version": "1.0.0",
-  "description": "boiler place for django vue webpack and django",
+  "description": "boiler plate for django vue webpack and django",
   "author": "Long Tran <longtm.it@gmail.com>",
   "private": true,
   "scripts": {
