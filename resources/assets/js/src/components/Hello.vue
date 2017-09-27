@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import {get} from 'jquery'
+import axios from 'axios'
 
 export default {
   name: 'hello',
@@ -43,11 +43,14 @@ export default {
   },
   mounted () {
     console.log('mounted')
-
-    get('/api/test', {}, (res) => {
-      console.log(res)
-      this.testData = res
-    })
+    axios.get('/api/test')
+      .then((response) => {
+        // console.log(response)
+        this.testData = response.data
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   }
 }
 </script>
